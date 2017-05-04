@@ -14,29 +14,28 @@ The most important variables are the startResetBTN and elapsedButton they are se
 
 <img src="images\IMAG0676.jpg"> 
 <img src="images\TestCodePicture1.png">
-This photo depicts just a single button wired up, in this step we are testing to determine if the button is wired correctly. We jump from the 5v to the positive portion of the breadboard and do the same with ground (red and black). Throughout this project black will show the side that goes to ground, and the colors will be the hot wire.
+--This photo depicts just a single button wired up, in this step we are testing to determine if the button is wired correctly. We jump from the 5v to the positive portion of the breadboard and do the same with ground (red and black). Throughout this project black will show the side that goes to ground, and the colors will be the hot wire.
 
 <img src="images\Snapchat-2062159838.jpg">
-The button is wired correctly to provide the LED with power, now it's time to figure out how to wire it so that we can run code to shut it on and off rapidly.
+--The button is wired correctly to provide the LED with power, now it's time to figure out how to wire it so that we can run code to shut it on and off rapidly.
 
 <img src="images\Snapchat-1354926983.jpg">
-This is the initial design, we relocated it so that the buttons and led had space to be used.
+--This is the initial design, we relocated it so that the buttons and led had space to be used.
 
 <img src="images\Snapchat-1522802363.jpg">
-We added one more LED (RED) to show that the stopwatch was currently running, when red it means it is counting time. When green it it's ready to be used again.
+--We added one more LED (RED) to show that the stopwatch was currently running, when red it means it is counting time. When green it it's ready to be used again.
 
 <img src="images\WonderingWhy.png">
-We had encountered a major issue that we couldn't resolve, Marcus then noted that we forgot to set the pin to an output pin. The issue was that the LED was very dim, we wired it to multiple pins and tested it without having it connected to the breadboard. We then tried just plain power going positive to negative and it had a normal illumination. 
+--We had encountered a major issue that we couldn't resolve, Marcus then noted that we forgot to set the pin to an output pin. The issue was that the LED was very dim, we wired it to multiple pins and tested it without having it connected to the breadboard. We then tried just plain power going positive to negative and it had a normal illumination. 
 
+<img src="images\Snapchat-1490889450.mp4">
+--We came across an issue regarding button state, it seemed that even though we included a 1 second delay if the user held the button it continued to cycle through the stopwatch's states (used and not used). Lucas proposed a debounce mechanism that records the previous state of the button, and then each loop compares to see if this new state is the same as the last. This worked great, and now the states are independent from one another through the pressing of the button.
+<img src="images\Snapchat-1068240847.mp4">
 
+## Final Notes
 <img src="images\working.gif">
+We managed to get it to work in the most basic form, if we are able to a screen would be a nice addition instead of running it through the serial monitor. The difficult part of adding a screen is finding a compatible LCD screen that doesn't require a bunch of parts that we do not own.
 
 <img src="images\Snapchat-83336043.jpg">
 
 <img src="images\SerialMonitor.png">
-
-<img src="images\Snapchat-1068240847.mp4">
-
-<img src="images\Snapchat-1490889450.mp4">
-
-<img src="images\WonderingWhy.png">

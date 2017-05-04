@@ -10,22 +10,22 @@ The most important variables are the startResetBTN and elapsedButton they are se
 
 <img src="images\working.gif">
 
-<img src="images\Snapchat-83336043.jpg>
+<img src="images\Snapchat-83336043.jpg">
 
-<img src="images\Snapchat-135492683.jpg>
+<img src="images\Snapchat-135492683.jpg">
 
-<img src="images\Snapchat-1522802363.jpg>
+<img src="images\Snapchat-1522802363.jpg">
 
-<img src="images\Snapchat-2062159838.jpg>
+<img src="images\Snapchat-2062159838.jpg">
 
-<img src="images\SerialMonitor.PNG>
+<img src="images\SerialMonitor.PNG">
 
-<img src="images\Snapchat-1068240847.mp4>
+<img src="images\Snapchat-1068240847.mp4">
 
-<img src="images\Snapchat-1490889450.mp4>
+<img src="images\Snapchat-1490889450.mp4">
 
-<img src="images\TestCodePicture1.PNG>
+<img src="images\TestCodePicture1.PNG">
 
-<img src="images\WonderingWhy.PNG>
+<img src="images\WonderingWhy.PNG">
 
-<img src="images\IMAG0676.jpg>
+<img src="images\IMAG0676.jpg">

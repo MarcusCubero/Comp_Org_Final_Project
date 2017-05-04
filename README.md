@@ -18,14 +18,14 @@ The most important variables are the startResetBTN and elapsedButton they are se
 
 <img src="images\Snapchat-2062159838.jpg">
 
-<img src="images\SerialMonitor.PNG">
+<img src="images\SerialMonitor.png">
 
 <img src="images\Snapchat-1068240847.mp4">
 
 <img src="images\Snapchat-1490889450.mp4">
 
-<img src="images\TestCodePicture1.PNG">
+<img src="images\TestCodePicture1.png">
 
-<img src="images\WonderingWhy.PNG">
+<img src="images\WonderingWhy.png">
 
 <img src="images\IMAG0676.jpg">

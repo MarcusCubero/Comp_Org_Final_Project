@@ -28,9 +28,9 @@ The most important variables are the startResetBTN and elapsedButton they are se
 <img src="images\WonderingWhy.png">
 --We had encountered a major issue that we couldn't resolve, Marcus then noted that we forgot to set the pin to an output pin. The issue was that the LED was very dim, we wired it to multiple pins and tested it without having it connected to the breadboard. We then tried just plain power going positive to negative and it had a normal illumination. 
 
-<img src="images\Snapchat-1490889450.mp4">
+<video src="images\Snapchat-1490889450.mp4" width="320" height="200" controls preload></video>
 --We came across an issue regarding button state, it seemed that even though we included a 1 second delay if the user held the button it continued to cycle through the stopwatch's states (used and not used). Lucas proposed a debounce mechanism that records the previous state of the button, and then each loop compares to see if this new state is the same as the last. This worked great, and now the states are independent from one another through the pressing of the button.
-<img src="images\Snapchat-1068240847.mp4">
+<video src="images\Snapchat-1068240847.mp4" width="320" height="200" controls preload></video>
 
 ## Final Notes
 <img src="images\working.gif">

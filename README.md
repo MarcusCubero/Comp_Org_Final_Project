@@ -13,20 +13,20 @@ The most important variables are the startResetBTN and elapsedButton they are se
 
 ### Project Images
 
-<img src="images\IMAG0676.jpg" width="320" height="240"> 
-<img src="images\TestCodePicture1.png" width="320" height="240">
+<img src="images\IMAG0676.jpg" width="480" height="320"> 
+<img src="images\TestCodePicture1.png" width="480" height="320"> 
 --This photo depicts just a single button wired up, in this step we are testing to determine if the button is wired correctly. We jump from the 5v to the positive portion of the breadboard and do the same with ground (red and black). Throughout this project black will show the side that goes to ground, and the colors will be the hot wire.
 
-<img src="images\Snapchat-2062159838.jpg" width="320" height="240">
+<img src="images\Snapchat-2062159838.jpg" width="480" height="320"> 
 --The button is wired correctly to provide the LED with power, now it's time to figure out how to wire it so that we can run code to shut it on and off rapidly.
 
-<img src="images\Snapchat-1354926983.jpg" width="320" height="240">
+<img src="images\Snapchat-1354926983.jpg" width="480" height="320"> 
 --This is the initial design, we relocated it so that the buttons and led had space to be used.
 
-<img src="images\Snapchat-1522802363.jpg" width="320" height="240">
+<img src="images\Snapchat-1522802363.jpg" width="480" height="320"> 
 --We added one more LED (RED) to show that the stopwatch was currently running, when red it means it is counting time. When green it it's ready to be used again.
 
-<img src="images\WonderingWhy.png" width="320" height="240">
+<img src="images\WonderingWhy.png" width="480" height="320"> 
 --We had encountered a major issue that we couldn't resolve, Marcus then noted that we forgot to set the pin to an output pin. The issue was that the LED was very dim, we wired it to multiple pins and tested it without having it connected to the breadboard. We then tried just plain power going positive to negative and it had a normal illumination. 
 <img src="images\Snapchat-83336043.jpg" width="320" height="240">
 

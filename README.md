@@ -5,7 +5,7 @@ Lucas and I have put together a stopwatch program for the Arduino. The program r
 
 ## Link to Arduino Code
 
-This is the Repository for the code: <a href="https://github.com/johnslw26/MarcusLucasStopwatch"></a> 
+This is the Repository for the code: [Link](https://github.com/johnslw26/MarcusLucasStopwatch) 
 
 ### Code Description
 

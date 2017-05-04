@@ -28,7 +28,7 @@ The most important variables are the startResetBTN and elapsedButton they are se
 
 <img src="images\WonderingWhy.png" width="480" height="320"> 
 --We had encountered a major issue that we couldn't resolve, Marcus then noted that we forgot to set the pin to an output pin. The issue was that the LED was very dim, we wired it to multiple pins and tested it without having it connected to the breadboard. We then tried just plain power going positive to negative and it had a normal illumination. 
-<img src="images\Snapchat-83336043.jpg" width="320" height="240">
+<img src="images\Snapchat-83336043.jpg" width="480" height="320"> 
 
 <video width="320" height="240" controls>
   <source src="images\Snapchat-1490889450.mp4" type="video/mp4">

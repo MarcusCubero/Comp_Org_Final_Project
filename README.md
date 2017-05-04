@@ -1,6 +1,7 @@
 ## Arduino Stopwatch
 
 Lucas and I have put together a stopwatch program for the Arduino. The program runs inside of the Arduino program on the computer and when Button 1 is pushed the timer will start and then if it is pushed again it will stop the timer and the program will print out the time that the program ran for. There is also a second button, Button 2, that will print out the time that last ran when the stopwatch is stopped. When the stopwatch is started, a red LED is lit up. When the stopwatch is stopped, the green LED is lit up. 
+<img src="images\SerialMonitor.png">
 
 ## Link to Arduino Code
 
@@ -27,6 +28,7 @@ The most important variables are the startResetBTN and elapsedButton they are se
 
 <img src="images\WonderingWhy.png">
 --We had encountered a major issue that we couldn't resolve, Marcus then noted that we forgot to set the pin to an output pin. The issue was that the LED was very dim, we wired it to multiple pins and tested it without having it connected to the breadboard. We then tried just plain power going positive to negative and it had a normal illumination. 
+<img src="images\Snapchat-83336043.jpg">
 
 <video width="320" height="240" controls>
   <source src="images\Snapchat-1490889450.mp4" type="video/mp4">
@@ -41,7 +43,3 @@ Your browser does not support the video tag.
 ## Final Notes
 <img src="images\working.gif">
 We managed to get it to work in the most basic form, if we are able to a screen would be a nice addition instead of running it through the serial monitor. The difficult part of adding a screen is finding a compatible LCD screen that doesn't require a bunch of parts that we do not own.
-
-<img src="images\Snapchat-83336043.jpg">
-
-<img src="images\SerialMonitor.png">

@@ -13,7 +13,7 @@ The most important variables are the startResetBTN and elapsedButton they are se
 
 ### Project Images
 
-<img src="images\IMAG0676.jpg"> 
+<img src="images\IMAG0676.jpg" width="320" height="240"> 
 <img src="images\TestCodePicture1.png">
 --This photo depicts just a single button wired up, in this step we are testing to determine if the button is wired correctly. We jump from the 5v to the positive portion of the breadboard and do the same with ground (red and black). Throughout this project black will show the side that goes to ground, and the colors will be the hot wire.
 

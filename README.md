@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Arduino Stopwatch
 
-You can use the [editor on GitHub](https://github.com/MarcusCubero/Comp_Org_Final_Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Lucas and I have put together a stopwatch program for the Arduino. The program runs inside of the Arduino program on the computer and when Button 1 is pushed the timer will start and then if it is pushed again it will stop the timer and the program will print out the time that the program ran for. There is also a second button, Button 2, that will print out the time that last ran when the stopwatch is stopped. When the stopwatch is started, a red LED is lit up. When the stopwatch is stopped, the green LED is lit up. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Code Description
 
-### Markdown
+The most important variables are the startResetBTN and elapsedButton they are set to pins 4 and 3 respectively. To make the LED's work we needed to assign them a pin in the code, we named them redLed and greenLed (pins 2 and 8). We ran into an issue which prevented us from using just buttonState to determine if the button is being pressed, it allowed the button to be long pressed which would toggle the states every second (due to the debounce). We fixed this by adding a variable called lastButtonState which is checked later in the code. Now we look at the setup method which includes all the pinMode method calls so that we can determine the pin to be set as an input and output. We initialize the serial monitor to be set at 9600 baud and then print the directions out to it. The loop then contains the core logic of the application. We first declare the initial button state which then we check to lastButtonState (initialized as 10 so it's different). Then lastButtonState is set and we check if the button's voltage is HIGH to determine if it's pushed. We used a variable called isRunning so that we can use one button for two functions, if it isn't running it will start the stopwatch. If it is running it will stop it then set the led lights and set isRunning to false so we can start a new time trial, vice versa for if it's not running. We then display the results through displayResults with a 1 second delay so it doesn't output the same result multiple times. Display time converts the milliseconds into hours, minutes, and seconds. We use a println function to show the results and concatenate them, while converting them to a string. Finally, the function that controls the state of the LED lights, simply put it switches between the red and green lights with input for high or low voltage.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Project Images
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MarcusCubero/Comp_Org_Final_Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Image](src="https://www.planwallpaper.com/static/images/9-credit-1.jpg")

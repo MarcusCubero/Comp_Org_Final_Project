@@ -10,4 +10,4 @@ The most important variables are the startResetBTN and elapsedButton they are se
 
 
 
-![Image](src="https://www.planwallpaper.com/static/images/9-credit-1.jpg")
+<img src="images\working.gif">

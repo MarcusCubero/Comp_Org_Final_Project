@@ -12,7 +12,7 @@ The most important variables are the startResetBTN and elapsedButton they are se
 
 <img src="images\Snapchat-83336043.jpg">
 
-<img src="images\Snapchat-135492683.jpg">
+<img src="images\Snapchat-1354926983.jpg">
 
 <img src="images\Snapchat-1522802363.jpg">
 
